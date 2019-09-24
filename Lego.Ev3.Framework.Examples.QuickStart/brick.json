@@ -1,0 +1,16 @@
+{
+  "Brick": {
+    "Devices": [
+      {
+        "Id": "touchSensorId",
+        "Type": "TouchSensor",
+        "Port": "One"
+      },
+      {
+        "Id": "largeMotorId", 
+        "Type": "LargeMotor",
+        "Port": "A"
+      }
+    ]
+  }
+}
