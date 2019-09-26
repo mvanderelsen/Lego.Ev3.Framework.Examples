@@ -12,10 +12,12 @@ namespace QuickStart
      * Connect a touch sensor to Port One
      * Connect a large motor to Port A
      * 
+     * Connect the brick using a usb cable
+     * 
      * CTRL + F5 Run
      * 
      * Motor will run until touchsensor is clicked 
-     * Motor will start again if up key on the brick is clicked
+     * Motor will start again if up button on the brick is clicked
      * 
      * If battery level falls below MINIMUM_BATTERY_LEVEL the program will terminate
      * 
