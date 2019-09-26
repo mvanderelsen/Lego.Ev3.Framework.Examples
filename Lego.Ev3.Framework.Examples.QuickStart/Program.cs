@@ -2,7 +2,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
-namespace Lego.Ev3.Framework.Examples.QuickStart
+using System.IO;
+namespace QuickStart
 {
     class Program
     {
@@ -12,7 +13,7 @@ namespace Lego.Ev3.Framework.Examples.QuickStart
             AppDomain.CurrentDomain.ProcessExit += new EventHandler(ProcessExit);
 
             IConfigurationBuilder builder = new ConfigurationBuilder()
-            .SetBasePath(System.IO.Directory.GetCurrentDirectory())
+            .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("brick.json", optional: true, reloadOnChange: true); // set the file to copy if newer
 
             IConfigurationRoot configuration = builder.Build();

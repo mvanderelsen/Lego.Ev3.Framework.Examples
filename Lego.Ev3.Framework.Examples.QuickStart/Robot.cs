@@ -1,15 +1,16 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Lego.Ev3.Framework;
+using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
-namespace Lego.Ev3.Framework.Examples.QuickStart
+namespace QuickStart
 {
 
     /*
      * Robot using dependency injection and json configuration see Program.cs
      * 
-     * To Run:
+     * To Run: (no need to build something)
      * 
-     * Add a touch sensor to Port One
-     * Add a large motor to Port A
+     * Connect a touch sensor to Port One
+     * Connect a large motor to Port A
      * 
      * CTRL + F5 Run
      * 
