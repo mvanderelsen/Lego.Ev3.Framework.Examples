@@ -9,6 +9,9 @@ Make sure to get the latest version of the Lego.Ev3.Framework
 * Connect a touch sensor to Port One
 * Connect a large motor to Port A
 
+### Connection
+* Connect the Brick using a Usb cable
+
 ### Program
 * Motor will run until touchsensor is clicked 
 * Motor will start again if up button on the brick is clicked
