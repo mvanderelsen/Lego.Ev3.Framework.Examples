@@ -6,8 +6,11 @@ namespace Lego.Ev3.Framework.Examples.QuickStart
 {
     class Program
     {
+        private static Robot _robot;
         static void Main(string[] args)
         {
+            AppDomain.CurrentDomain.ProcessExit += new EventHandler(ProcessExit);
+
             IConfigurationBuilder builder = new ConfigurationBuilder()
             .SetBasePath(System.IO.Directory.GetCurrentDirectory())
             .AddJsonFile("brick.json", optional: true, reloadOnChange: true); // set the file to copy if newer
@@ -20,11 +23,15 @@ namespace Lego.Ev3.Framework.Examples.QuickStart
            .AddTransient<Robot>()
            .BuildServiceProvider();
 
-            Robot robot = provider.GetRequiredService<Robot>();
-            robot.Start().GetAwaiter().GetResult();
+            _robot = provider.GetRequiredService<Robot>();
+            _robot.Start().GetAwaiter().GetResult();
             Console.ReadKey();
-            robot.Stop().GetAwaiter().GetResult();
-            Console.ReadKey();
+        }
+
+        private static void ProcessExit(object sender, EventArgs e)
+        {
+            _robot.Stop().GetAwaiter().GetResult();
+            _robot = null;
         }
     }
 }
