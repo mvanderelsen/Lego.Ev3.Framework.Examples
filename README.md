@@ -3,5 +3,5 @@ Make sure to get the latest version of the Lego.Ev3.Framework
 
 ## Index
 * [QuickStart](https://github.com/mvanderelsen/Lego.Ev3.Framework.Examples/tree/master/Lego.Ev3.Framework.Examples.QuickStart)
-* [ColorSensorLOgger](https://github.com/mvanderelsen/Lego.Ev3.Framework.Examples/tree/master/Lego.Ev3.Framework.Examples.ColorSensorLogger)
+* [ColorSensorLogger](https://github.com/mvanderelsen/Lego.Ev3.Framework.Examples/tree/master/Lego.Ev3.Framework.Examples.ColorSensorLogger)
 
