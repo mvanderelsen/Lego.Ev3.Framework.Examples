@@ -1,0 +1,19 @@
+﻿{
+  "Brick": {
+    "Socket": {
+      "Type": "BlueTooth",
+      "Address":  "COM4" //set to your comport
+    },
+    "PowerUpSelfTest": {
+      "Enabled": false
+    },
+    "Devices": [
+      {
+        "Id": "colorSensor",
+        "Type": "ColorSensor",
+        "Port": "One", //set to your port One, Two, Three or Four
+        "Mode": "Reflected"
+      }
+    ]
+  }
+}

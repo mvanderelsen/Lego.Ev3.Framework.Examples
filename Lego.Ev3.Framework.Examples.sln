@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lego.Ev3.Framework.Examples.QuickStart", "Lego.Ev3.Framework.Examples.QuickStart\Lego.Ev3.Framework.Examples.QuickStart.csproj", "{372F9C9C-9DD4-4600-8EA7-E1767932F022}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lego.Ev3.Framework.Examples.ColorSensorLogger", "Lego.Ev3.Framework.Examples.ColorSensorLogger\Lego.Ev3.Framework.Examples.ColorSensorLogger.csproj", "{55CDD4DD-C018-40CA-9B28-A6F063A55326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{372F9C9C-9DD4-4600-8EA7-E1767932F022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{372F9C9C-9DD4-4600-8EA7-E1767932F022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{372F9C9C-9DD4-4600-8EA7-E1767932F022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CDD4DD-C018-40CA-9B28-A6F063A55326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CDD4DD-C018-40CA-9B28-A6F063A55326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CDD4DD-C018-40CA-9B28-A6F063A55326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CDD4DD-C018-40CA-9B28-A6F063A55326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
