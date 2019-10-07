@@ -7,7 +7,7 @@
 * Connect a large motor to Port A
 
 ## Connection
-* Connect the Brick using a Usb cable
+* Connect the Brick using an Usb cable
 
 ## Program
 * Motor will run until touchsensor is clicked 
