@@ -6,16 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Ev3.Framework" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="9.0.6" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.6" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.6" />
     <PackageReference Include="System.IO.Ports" Version="9.0.6" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Lego.Ev3.Framework">
-      <HintPath>..\..\Lego.Ev3.Framework\Lego.Ev3.Framework\bin\Release\net9.0\Lego.Ev3.Framework.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>
